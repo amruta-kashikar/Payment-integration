@@ -1,0 +1,96 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    
+}
+.contain{
+    position: relative;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    max-width: 3000px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 0.8;
+
+}
+.navbar {
+    display: flex;
+    padding: 40px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.contain nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    /* padding-left: 20px; */
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    
+    font-size: 25px;
+  } 
+ a:hover {
+    color: rgb(209, 206, 206);
+ }
+ .icon-wrapper {
+    margin-left: -100px;
+    margin-top: -20px;
+    border-radius: 50%;
+    background-color: #dad8d8b9;
+    width: 35px;
+    height: 35px;
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+}
+.icon-wrapper:hover {
+  cursor: pointer;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 1px solid rgb(218, 218, 218);
+  background-color: rgba(163, 163, 163, 0.5);
+  width: 35px;
+  height: 35px;
+  padding-left: 2px;
+  display: flex;
+  align-items: center;
+}
+.fa {
+    display: inline-block;
+    /* margin-top: -20px;
+    margin-right: 20px;
+    padding-top: 25px;*/
+    padding-left: 9px;  
+  }
+  #main .container{
+    padding-top: 120px;
+}
+.btn1{
+    background-color: brown;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background-color: rgb(214, 60, 60);
+    border-radius: 20px;
+} 
+.transparent-box{
+    background-color: rgba(177, 108, 80, 0.5);
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+}
+.transparent-box-1{
+    background-color: rgba(177, 108, 80, 0.5);
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+}
+ .icon{
+    cursor: pointer;
+}
+/*.icon:hover{
+    filter: grayscale(0%);
+} */
